@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="DeviceName"
+        android:textColor="@color/text_color" />
+
+    <EditText
+        android:id="@+id/et_deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:text="dftc002" />
+
+  </LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_productKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="ProductKey"
+        android:textColor="@color/text_color" />
+
+    <EditText
+        android:id="@+id/et_productKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:text="qLhKrlpINTO" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_secret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="Secret"
+        android:textColor="@color/text_color" />
+
+    <EditText
+        android:id="@+id/et_secret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:text="fKxsI2gDjaa27x2fpV7DHyrtvcnG0UYl" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dip"
+      android:gravity="center_horizontal"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bt_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@drawable/custom_dialog_positive_button"
+        android:layout_gravity="center_vertical"
+        android:text="Connect"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/bt_subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@drawable/custom_dialog_extra_button"
+        android:layout_gravity="center_vertical"
+        android:text="Subscribe"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/bt_publish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@drawable/custom_dialog_extra_button"
+        android:layout_gravity="center_vertical"
+        android:text="Publish"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/bt_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@drawable/custom_dialog_negative_button"
+        android:layout_gravity="center_vertical"
+        android:text="Clear"
+        android:textSize="15sp"/>
+
+  </LinearLayout>
+
+  <ScrollView
+      android:id="@+id/scrollView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:text="fsdfsdfsdf"
+        android:padding="6dp"
+        android:textColor="@color/text_color" />
+  </ScrollView>
+</LinearLayout>
